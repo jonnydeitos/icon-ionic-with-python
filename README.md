@@ -8,7 +8,7 @@ Esse tutorial ajuda a criação de icones como se fossem nativos do próprio Ion
 ### Instruções de Build 
 
 ### Preparando Ambiente
-Necessário instalação de algumas coisas antes de começar a programação. Todo tutorial foi baseado em instalação para Ubuntu 16.04
+Necessário instalação de algumas dependencias antes de começar a programação. Todo tutorial foi baseado em instalação para Ubuntu 16.04
 	
 	ruby, python, fontforge, ttfautohint, sass, svgo, woff-tools, brotli, woff2
 
@@ -44,7 +44,7 @@ Necessário instalação de algumas coisas antes de começar a programação. To
 
 ### brotli
 
-	sudo apt-get install git (caso não tiver instalado)
+	sudo apt-get install git (caso não esteja instalado)
 	git clone https://github.com/google/brotli.git
 	cd brotli/
 	mkdir out && cd out
@@ -58,7 +58,7 @@ Necessário instalação de algumas coisas antes de começar a programação. To
 	cmake --build . --config Release --target install
 
 	Pip
-	sudo apt-get install python-pip (caso não tiver instalado)
+	sudo apt-get install python-pip (caso não esteja instalado)
 
 ### woff2
 
