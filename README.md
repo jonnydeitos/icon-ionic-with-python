@@ -76,6 +76,7 @@ Algumas dependências básicas são necessárias para o funcionamento do Ionic, 
 Com os requesitos para o funcionamento do Ionic instalados, siga os passos abaixo:
 
     ionic start <nome do projeto> tabs
+    cd <nome do projeto>
     wget https://github.com/ionic-team/ionicons/archive/3.0.zip
     unzip 3.0.zip 
     rm 3.0.zip 
