@@ -93,16 +93,6 @@ O arquivo de configuração `ionic_sass` precisa indicar para o sass onde import
 
 Segue abaixo a configuração dos arquivos.
 
-### Ionic Copy
-
-```var copyDefaultConfig = require('@ionic/app-scripts/config/copy.config.js');
-
-copyDefaultConfig.copyFonts.src = ['{{ROOT}}/node_modules/ionic-angular/fonts/**/*', '{{ROOT}}/ionicons-3.0/dist/fonts/**/*'];
-
-module.exports = function () {
-  return copyDefaultConfig;
-};```
-
 ### Ionic Sass
 
 	var copyDefaultConfig = require('@ionic/app-scripts/config/sass.config.js');
