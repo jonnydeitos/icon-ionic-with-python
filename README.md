@@ -105,22 +105,20 @@ module.exports = function () {
 
 #### Ionic Sass
 
-```var copyDefaultConfig = require('@ionic/app-scripts/config/sass.config.js');
-
-copyDefaultConfig.includePaths.push('ionicons-3.0/dist/scss');
-
-module.exports = function () {
-  return copyDefaultConfig;
-};```
+	var copyDefaultConfig = require('@ionic/app-scripts/config/sass.config.js');
+	copyDefaultConfig.includePaths.push('ionicons-3.0/dist/scss');
+	module.exports = function () {
+		return copyDefaultConfig;
+	};
 
 ### Setando as configurações para os arquivos criados
 
 Criado os arquivos é preciso dizer ao @ionic/app-scripts onde ele encontrará os novos arquivos de configuração. Para fazer isso basta adicionar as seguintes instruções no arquivo `package.json` em qualquer linha na raiz do objeto.
 
-```  "config": {
-    "ionic_copy": "./config/ionic_copy.js",
-    "ionic_sass": "./config/ionic_sass.js"
-  },```
+    "config": {
+    	"ionic_copy": "./config/ionic_copy.js",
+    	"ionic_sass": "./config/ionic_sass.js"
+    },
 
 ### Gerando os ícones
 Após incluí-los na pasta indicada, basta executar, na pasta `./ionicons-3.0` o seguinte comando:
